@@ -41,9 +41,9 @@ const Contact = () => {
                 <button type='submit' value='send' className="submitBtn">Submit</button>
                 <div className="links">
                      <a href="https://github.com/perinbasaravanan-06"><img src={gitHubIcon} alt="github Icon" className="link" /></a> 
-                   <a href=""><img src={linkedInIcon} alt="linkedIn Icon" className="link" /></a> 
-                    <a href=""><img src={leetCodeIcon} alt="leetCode Icon" className="link" /></a>
-                    <a href=""><img src={geeksForGeeksIcon} alt="geeksForGeeks Icon" className="link" /></a>
+                   <a href="https://www.linkedin.com/in/perinbasaravanan06/"><img src={linkedInIcon} alt="linkedIn Icon" className="link" /></a> 
+                    <a href="https://leetcode.com/u/Perinbasaravanank_06/"><img src={leetCodeIcon} alt="leetCode Icon" className="link" /></a>
+                    <a href="https://www.geeksforgeeks.org/user/perinbasarcwzq/"><img src={geeksForGeeksIcon} alt="geeksForGeeks Icon" className="link" /></a>
                 </div>
             </form>
         </div>
