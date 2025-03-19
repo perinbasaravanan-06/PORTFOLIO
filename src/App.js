@@ -1,6 +1,7 @@
 import Intro from "./COMPONENTS/Intro/Intro";
 import Navbar from "./COMPONENTS/NavBar/Navbar";
 import Skills from "./COMPONENTS/Skills/Skills";
+import Works from "./COMPONENTS/Works/Works";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <Skills/>
+      <Works/>
     </div>
   );
 }
