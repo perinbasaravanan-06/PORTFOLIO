@@ -1,3 +1,5 @@
+import Contact from "./COMPONENTS/Contact/Contact";
+import Footer from "./COMPONENTS/Footer/Footer";
 import Intro from "./COMPONENTS/Intro/Intro";
 import Navbar from "./COMPONENTS/NavBar/Navbar";
 import Skills from "./COMPONENTS/Skills/Skills";
@@ -10,6 +12,8 @@ function App() {
       <Intro/>
       <Skills/>
       <Works/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

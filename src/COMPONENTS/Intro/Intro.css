@@ -5,6 +5,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    box-sizing: border-box;
 }
 .bg{
     position: absolute;
@@ -34,11 +35,12 @@
 .introPara{
     font-size: 1.2rem;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing:1px solid ;
 }
 
 .btn{
-    background: white;
+    background: #23c5e6;
+    color: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -50,6 +52,7 @@
     margin: 0 0.25rem;
     height: 1rem; 
 }
+
 
 @media screen and (max-width:840px){
     .bg{
@@ -64,7 +67,8 @@
 }
 @media screen and (max-width:480px){
     .bg{
-        right: -20vw;
+        right: -30vw;
+        scale: 0.80;
     }
     
 }
