@@ -18,19 +18,23 @@
     font-weight: 400;
     font-size: 1rem;
     max-width: 45rem;
+    margin-bottom: 3rem;
 }
 .worksImgs{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width:100vw;
+    width:99vw;
     max-width: 65rem;
+    gap: 1rem;
 }
 .worksImg{
     object-fit: cover;
-    height: 20rem;
+    height: 17rem;
     margin: 0.5rem;
+    border:2px solid #23c5e6;
+    border-radius: 12px;
 }
 .worksBtn{
     margin: 3rem 0;
